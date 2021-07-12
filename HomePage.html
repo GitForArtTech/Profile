@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helen Lan</title>
+    <link rel="stylesheet" href="HomePage.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#banner" onclick="toggleMenu();">主頁 </a></li>
+          <li><a href="#about" onclick="toggleMenu();">關於我</a></li>
+          <li><a href="#skill" onclick="toggleMenu();">技能</a></li>
+          <li><a href="#project" onclick="toggleMenu();">專案 </a></li>
+          <li><a href="#experience" onclick="toggleMenu();">實習經驗 </a></li>
+          <li><a href="#competition" onclick="toggleMenu();">比賽經驗 </a></li>
+          <!-- <li><a href="#contact" onclick="toggleMenu();">聯絡我 🌻 </a></li> -->
+        </ul>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <a href="#" class="logo">Helen Lan</a>
+          <div class="toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- banner -->
+        <section class="banner" id="banner">
+          <div class="content">
+            <div class="imgBox">
+              <img src="./images/Helen.jpg" alt="" />
+            </div>
+            <h3>藍子琪</h3>
+            <p>
+              國立政治大學 資訊管理學系 <br /><br />雙主修 數位內容與科技學程<br /><br />
+              輔修 韓國語文學系
+            </p>
+            <!-- CV還有東西要改 先不放 -->
+            <!-- <a href="CV/cv_helen.html" class="btn">下載我的CV</a> -->
+            <ul class="socialMedia">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100000266618368"
+                  target="”_blank”"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/colorful_gravity/"
+                  target="”_blank”"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/%E5%AD%90%E7%90%AA-%E8%97%8D-44225b172/"
+                  target="”_blank”"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/j99120701" target="”_blank”"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- 關於我 -->
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>關於我</h2>
+          </div>
+          <div class="content">
+            <div class="textBox">
+              <p>
+                我是目前就讀國立政治大學資管系三年級的藍子琪，在大一時期，
+                積極在程式設計課程(JAVA)下功夫，領導團隊完成期末專案。
+                並且成功申請雙主修數位內容以及輔修韓文的機會。
+                <br /><br />
+                在數位內容學程中，學習到實務導向的產品設計、網頁設計(使用Figma)，
+                曾修習虛擬實境(VR,AR)、AI、AE還有互動聲音程式設計MaxMSP等等課程。<br /><br />
+                大二升大三的暑假，到了叡揚資訊開發部擔任實習生的期間，學到許多關於.Net
+                web和node.js/JavaScript開發的程式技巧以
+                及開發流程，並且在資安事業處，學習到許多opensource弱點、攻擊知識。<br /><br />
+                目前正在積極學習資安方面的技術和React.js、Vue.js等等前端框架，未來有意願想往資安、網頁開發發展。平常也會在github上找尋大師的作品或者是他人寫好的開源套件看看他們是怎麼實作並且學習如何使用，套用在自己的side
+                project上。
+                <br /><br />我認為多樣學習，吸收各方面的知識，才能在如此競爭的社會生存，
+                並且花大量時間練習做出成果，隨時準備、學習，隨時做好上戰場的狀態，才能面對各種突如其來的挑戰!
+              </p>
+            </div>
+            <div class="imgBox2">
+              <img src="./images/app-evo.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <!-- skill -->
+        <section class="skill adjust" id="skill">
+          <div class="title">
+            <h2>我的技能</h2>
+          </div>
+          <div class="content">
+            <!-- 技能Box們 -->
+            <div class="skillBox">
+              <img src="./images/website.png" alt="" />
+              <h2>Web Design</h2>
+              <p>Figma</p>
+            </div>
+            <div class="skillBox">
+              <img src="./images/website2.png" alt="" />
+              <h2>網頁前端</h2>
+              <p>HTML CSS JS</p>
+            </div>
+            <div class="skillBox">
+              <img src="./images/framework.png" alt="" />
+              <h2>框架</h2>
+              <p>React.js、Vue.js</p>
+            </div>
+            <div class="skillBox">
+              <img src="./images/database.png" alt="" />
+              <h2>資料庫</h2>
+              <p>MySQL、firebase firestore</p>
+            </div>
+            <div class="skillBox">
+              <img src="./images/backend.png" alt="" />
+              <h2>後端語言</h2>
+              <p>C#、JAVA、Node.js、Python</p>
+            </div>
+            <div class="skillBox">
+              <img src="./images/docker.png" alt="" />
+              <h2>其他技能</h2>
+              <p>
+                Docker、K8s、Jenkins、sonarQube、Selenium、Adobe Illustrator
+                、AE、Pr
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Projects -->
+        <section class="project adjust" id="project">
+          <div class="title">
+            <h2>專案作品集</h2>
+          </div>
+          <div class="content">
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/css-project01.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <!-- <h3>HTML+CSS 名片作品</h3> -->
+                <a
+                  href="https://codepen.io/miseprince/pen/jOPjXGY?editors=1100"
+                  target="__blank"
+                  >HTML+CSS 名片作品</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/CV.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="https://codepen.io/miseprince/pen/QWygrrG"
+                  target="__blank"
+                  >HTML+CSS 個人技能網頁作品</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/lib.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <h3>DIGI+Talent跨域研習-圖書管理系統（SSDLC）</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/goopet.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="https://github.com/j99120701/DS_Final_Group2"
+                  target="__blank"
+                  >GOOPETS-領養代替購買!</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/pro2.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="http://107306014.weebly.com/resume.html"
+                  target="__blank"
+                  >政大二手書平台(系統分析與設計-prototype)</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/vue.jpg" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a href="​#" target="__blank"
+                  >使用Vue.js + Firebase 自行架設之個人部落格</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/de.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a href="​https://de-frontend.herokuapp.com/#/" target="__blank"
+                  >使用Vue.js + Node.js + Heroku 製作de產銷資訊系統</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/GooTrans.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="​https://www.figma.com/proto/AryAYRLcbloAqjfnYU2GZR/prototype?chrome=DOCUMENTATION&kind=&node-id=14654%3A25&scaling=min-zoom"
+                  target="__blank"
+                  >交通局公路運輸比賽優勝作品-GooTrans 產品原型</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/sql.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="​https://github.com/j99120701/vul-website"
+                  target="__blank"
+                  >XSS、SQL injection展示網站(Node.js、.Net皆有)</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/Monsters.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="​https://j99120701.github.io/Monster-search-site/"
+                  target="__blank"
+                  >React.js Search Monsters</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/music.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="​https://github.com/j99120701/music-player-forfun"
+                  target="__blank"
+                  >純HTML CSS JS 音樂播放器</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="./images/supply.png" alt="" class="" />
+              </div>
+              <div class="textBx">
+                <a
+                  href="​https://github.com/supply-chain-financing/player/settings"
+                  target="__blank"
+                  >供應鏈金融-畢業專案(React.js)</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Experience -->
+        <section class="experience adjust" id="experience">
+          <div class="title">
+            <h2>實習經驗</h2>
+          </div>
+          <div class="content">
+            <div class="expBox">
+              <h2>助理程式設計師</h2>
+              <h3>GSS 叡揚資訊</h3>
+              <h4>2020-07 ~ 2021-03</h4>
+            </div>
+            <div class="expBox">
+              <h2>DIGI+Talent跨域數位研習生</h2>
+              <h3>經濟部工業局</h3>
+              <h4>2020-07 ~ 2020-12</h4>
+            </div>
+          </div>
+        </section>
+        <!-- Experience -->
+        <section class="competition adjust" id="competition">
+          <div class="title">
+            <h2>比賽經驗</h2>
+          </div>
+          <div class="content">
+            <div class="expBox">
+              <h2>政大第二屆創業募資簡報競賽-優勝</h2>
+              <h4>2019-12</h4>
+            </div>
+            <div class="expBox">
+              <h2>2020年公路公共運輸規劃競賽--第一階段優勝</h2>
+              <h4>2020-06</h4>
+            </div>
+          </div>
+        </section>
+        <!-- Contact -->
+        <!-- 先拿掉好惹 -->
+        <!-- <section class="contact adjust" id="contact">
+          <div class="title">
+            <h2>聯絡我 🌻</h2>
+          </div>
+          <div class="contactForm">
+            <div class="row">
+              <input type="text" name="" placeholder="如何稱呼您？" />
+            </div>
+            <div class="row">
+              <input type="email" name="" placeholder="請輸入Email" />
+            </div>
+            <div class="row2">
+              <textarea placeholder="請輸入內容"></textarea>
+            </div>
+            <div class="row2">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </section> -->
+        <!-- copyright text -->
+        <div class="copyright">
+          <p>Copyright © 2021 Helen Lan. All Right Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./HomePage.js"></script>
