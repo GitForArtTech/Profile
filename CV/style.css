@@ -1,0 +1,232 @@
+:root {
+  /*   --main: #7AE5FF; */
+  --main: #ff8c81;
+  --back: #eae5d7;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+}
+body {
+  background-color: var(--back);
+  box-sizing: border-box;
+}
+.mainWebsite {
+  position: absolute;
+  border: none;
+  margin: 1px 1px;
+  padding-left: 5vw;
+  color: var(--main);
+  text-decoration: none;
+  z-index: 10000;
+}
+.mainWebsite i {
+  border: none;
+  margin-right: 10px;
+}
+.CV {
+  position: relative;
+  margin: 5%;
+  width: 90%;
+  height: 180vh;
+  background-color: #fff;
+}
+.header {
+  /*   border:2px solid red; */
+  background-color: var(--main);
+  position: relative;
+  top: 3%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  padding-right: 40%;
+}
+.photo {
+  position: relative;
+  border: 5px solid #fff;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 70%;
+  display: inline-block;
+}
+.photo img {
+  object-fit: cover;
+  margin-left: -30%;
+  width: 300px;
+  height: 200px;
+}
+.personal-link {
+  /*   border:2px solid blue; */
+  line-height: 50px;
+  color: var(--white);
+}
+.personal-link a {
+  text-decoration: none;
+  color: var(--white);
+}
+.name {
+  font-size: 28px;
+}
+.main {
+  display: flex;
+  position: relative;
+  /*   border:2px solid green; */
+  width: 100%;
+  height: 70%;
+  top: 5%;
+  justify-content: space-between;
+}
+.left {
+  /*   border:2px solid var(--main); */
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 500px;
+  height: 100%;
+  margin-left: 5%;
+}
+.right {
+  /*   border:2px solid blue; */
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  margin-right: 5%;
+}
+.left-block {
+  /*   border:2px solid green; */
+  display: block;
+  width: 100%;
+  height: 18%;
+  margin-top: 10%;
+}
+.left-block-title {
+  border-bottom: 10px solid var(--main);
+  text-align: left;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+.left-block-content {
+  /*   border-left:5px solid var(--main); */
+  font-size: 18px;
+  line-height: 25px;
+  word-spacing: 8px;
+}
+.right-block {
+  /*   border:2px solid green; */
+  display: block;
+  width: 90%;
+  height: 12%;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+.right-block.large {
+  /*   border:2px solid green; */
+  display: block;
+  width: 90%;
+  height: 40%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.right-block.page2 {
+  /*   border:2px solid green; */
+  padding-top: 5%;
+  display: block;
+  width: 90%;
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.right-block-title {
+  border-bottom: 10px solid var(--main);
+  text-align: left;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+.right-block-title.page2 {
+  border-bottom: 10px solid var(--main);
+  text-align: left;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.right-block-content {
+  font-size: 18px;
+  line-height: 35px;
+}
+.right-block-content.page2 {
+  /*   border: 2px solid var(--main); */
+  width: 100%;
+  height: 20%;
+  margin-top: 15px;
+}
+.content-p2 {
+  /*   border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+.title-p2 a,
+i {
+  text-decoration: none;
+  color: var(--main);
+  font-size: 20px;
+}
+.title-p2 a:hover {
+  text-decoration: none;
+  color: var(--back);
+}
+@media (max-width: 1200px) {
+  .header {
+    /*   border:2px solid red; */
+    background-color: var(--main);
+    position: relative;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding-right: 30%;
+  }
+}
+@media (max-width: 1000px) {
+  .header {
+    /*   border:2px solid red; */
+    background-color: var(--main);
+    position: relative;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding-right: 20%;
+  }
+  .CV {
+    position: relative;
+    margin: 5%;
+    width: 90%;
+    height: 170vh;
+    background-color: #fff;
+  }
+  .left-block {
+    /*   border:2px solid green; */
+    display: block;
+    width: 100%;
+    height: 18%;
+    margin-top: 15%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .header {
+    /*   border:2px solid red; */
+    background-color: var(--main);
+    position: relative;
+    top: 3%;
+    display: block;
+    padding: 2%;
+    padding-left: 20%;
+  }
+}
